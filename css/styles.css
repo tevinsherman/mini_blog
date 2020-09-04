@@ -97,24 +97,40 @@ Layout
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between
 } 
-@media (max-width: 675px) {
 
-    .container-nav {
-    
-    flex-direction: column;     
-    }
-    header {
-        text-align: center;
-    }
-    
-}
- 
 header {
     background: #f8f8f8;
     padding: 2em 0;
+    text-align: center;
+    
 }
+
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
+    main {
+        width: 75%;
+    }
+
+    aside {
+        width: 25%;
+    }
+}
+ 
+
+main {
+    width: 75%;  
+  }
+
+  aside {
+  width: 20%;
+  }
+ 
+
 
 /* navigation */
 
