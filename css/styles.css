@@ -9,6 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
+    line-height: 1.6; 
 }
 
 img {
@@ -313,3 +314,10 @@ footer li {
 footer li:hover {
     cursor: pointer;
 }
+
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+} */
